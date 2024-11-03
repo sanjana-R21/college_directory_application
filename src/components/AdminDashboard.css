@@ -1,0 +1,48 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.tables-section, .add-record-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.students-table, .faculty-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.students-table th, .faculty-table th, .students-table td, .faculty-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.add-record-section form div {
+    margin-bottom: 15px;
+}
+
+.chart-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}

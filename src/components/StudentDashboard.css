@@ -1,0 +1,120 @@
+/* General Dashboard Container */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Student Details Container */
+.student-details-container {
+    grid-column: span 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Enrolled Courses Container */
+.courses-container {
+    grid-column: span 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.course-table th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.course-table td {
+    background-color: #f5f5f5;
+}
+
+/* Search Section */
+.search-section {
+    grid-column: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.search-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: #334155; /* Darker color on hover */
+}
+
+.search-results {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.search-results li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,45 @@
+.login-container {
+    max-width: 300px; /* Smaller width for login box */
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #1e3a8a; /* Navy blue */
+    text-align: center;
+}
+
+.input-box, .select-box {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9fafb; /* Light grey */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.12);
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #1e3a8a; /* Navy blue */
+    box-shadow: 0 0 5px rgba(30, 58, 138, 0.3); /* Light blue focus shadow */
+}
+
+.login-button {
+    background-color: #1e3a8a; /* Navy blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #334155; /* Dark grey */
+    transition: background-color 0.3s ease-in-out;
+}
